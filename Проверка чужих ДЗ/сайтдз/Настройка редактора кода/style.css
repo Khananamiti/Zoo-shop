@@ -1,0 +1,109 @@
+.copypast {
+    color: grey;
+}
+
+img[alt="iPhone"] {
+    border: 1px solid purple;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+}
+
+p {
+    background-color: white;
+    color: black;
+}
+
+.BorderHar {
+    color: black;
+    border: 2px dotted black;
+    font-style: oblique;
+    font-size: 15px;
+    color: midnightblue;
+}
+
+body {
+    color: #f8f8f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: black;
+}
+.form {
+    color: black;
+}
+
+.menu {
+    font-size: 25px;
+    background-color: black;    
+}
+
+.listmenuul {
+    text-align:center;
+    color: black;
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 0; /* Отступ снизу */  
+}
+
+.ul li {
+    background-color: black;
+    margin-right: 120px;
+    padding: 6px;
+    list-style-type: none; /* Убираем маркеры */
+}
+a{
+    text-decoration: none;
+}
+.listmenu{
+    color: white;
+}
+.cataloglink{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cataloglink1{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.bgcatalog{
+    background-color: #eaeaea;
+}
+.shortydesc{ 
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.longdesc{
+   color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.hardesc{
+    
+}
+ul{
+    list-style-type: square;
+}
+input[type=text]{
+   width:200px;
+    height: 20px;
+    color: crimson;
+    font-size: 20px;
+}
+.textarea{
+    width: 400px;
+    height: 100px;
+    color: crimson;
+    font-size: 15px;
+}

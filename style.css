@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu li {
+    background-color: #efefef;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 21x;
+    list-style-type: none;    
+}
+
+.menu a {
+    color: darkslategray;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.description_short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description_detailed {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.character {
+    color: #565654;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 14px;
+    text-align: inherit;
+    list-style-image: url(img/cat_animal.png);
+}
+
+input[type="text"] {
+    height: 20px;
+    width: 200px;
+    font-size: 12px;
+}
+
+.colortext {
+    background-color: beige;
+    color: darkcyan;    
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: darkslategray;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: darkslategray;
+}
+
+

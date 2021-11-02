@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans.ttf');
+}
+
+@font-face {
+    font-family: Huntsman;
+    src: url('../fonts/Huntsman.otf');
+}
+
+body,
+html {
+    padding: 10;
+    margin: 10;
+    font-family: "Open Sans", sans-serif;
+    color: #2e1010;
+    background: #eaeaea;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: url('../images/promo.jpg') no-repeat;
+    background-size: cover;
+}
+
+#headerInside {
+    width: 1100px;
+    margin: auto;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url('../images/origami-logo.svg') no-repeat;
+    background-size: contain;
+}
+
+#companyName {
+    font-family: Huntsman, sans-serif;
+    float: left;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 50px;
+    color: #fff;
+}
+
+#navWrap {
+    height: 50px;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#navWrap a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 20px;
+    height: 70px;
+    line-height: 70px;
+}
+
+#navWrap a:hover {
+    background: #5e5e5e;
+}
+
+#navWrap a:last-child {
+    border-left: none;
+}
+
+body {
+    background: rgba(210, 202, 217, 0.72)
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.text {
+    text-decoration-color: #ff0000;
+    font-size: 1px;
+    font-weight: 900;
+}
+
+footer {
+    background: #f4e5e5;
+}
+
+img {
+    border: 4px solid #8d9f8d;
+    background: url(../images/promo.jpg) no-repeat 22px 40px;
+}
+
+
+.e {
+    color: black;
+    height: 25px;
+    width: ;
+    font-weight: 500;
+    background: #9f9797;
+
+}
+
+.e2 {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.e3 {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+
+}
+.e4 {
+    color: #6d3737;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    font-style: italic;
+
+}
+.w1 {
+    width: 340px;
+    
+}
+.x {
+    height: auto;
+    font-size: 20px;
+}
